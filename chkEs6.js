@@ -15,10 +15,8 @@ function check(){
 //check the result
 if(check()){ // if(check()===true)) also works
 	//do all scripts including es6 scripts.
-	document.body.innerHTML += "Compatible";
 }
 //not es6 compatible
 else{
 	//do compatible scripts only
-	document.body.innerHTML += "No";
 }
